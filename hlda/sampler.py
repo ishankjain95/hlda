@@ -186,7 +186,7 @@ class HierarchicalLDA(object):
 
     def estimate(self, num_samples, display_topics=50, n_words=5, with_weights=True):
 
-        print 'HierarchicalLDA sampling\n'
+        print('HierarchicalLDA sampling\n')
         for s in range(num_samples):
 
             sys.stdout.write('.')
